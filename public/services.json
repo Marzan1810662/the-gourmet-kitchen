@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "625c2b52e7a96ea9aceb9721",
+    "index": 0,
+    "picture": "https://preview.pixlr.com/images/800wm/1318/2/1318105269.jpg",
+    "name": "Daily Meal",
+    "description": "blablabla",
+    "price": 150
+  },
+  {
+    "_id": "625c2b523270ee6a1b88178c",
+    "index": 1,
+    "picture": "https://previews.123rf.com/images/lelik83/lelik831701/lelik83170101002/70767083-catering-food-wedding-event-table.jpg",
+    "name": "Event",
+    "description": "blablabla",
+    "price": 150
+  },
+  {
+    "_id": "625c2b52f55a9262dcdeea9e",
+    "index": 2,
+    "picture": "https://i0.wp.com/runningmen.my/wp-content/uploads/2021/10/LA-352-2992153937-1635431956347.jpg?resize=1200%2C802&ssl=1",
+    "name": "Corporate",
+    "description": "blablabla",
+    "price": 150
+  },
+  {
+    "_id": "625c2b5224bff19ec0eb904b",
+    "index": 3,
+    "picture": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYXJvbnxlbnwwfHwwfHw%3D&w=1000&q=80",
+    "name": "Dessert",
+    "description": "blablabla",
+    "price": 150
+  }
+]

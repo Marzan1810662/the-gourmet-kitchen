@@ -1,0 +1,42 @@
+.service {
+    width: 90%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background: #f3f1ec6f;
+    color: rgba(0, 0, 0, 0.623);
+    position: relative;
+    ;
+}
+
+.service:hover {
+    box-shadow: 10px 10px 10px rgba(111, 111, 111, 0.29);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.service img {
+    /* border-radius: 10px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.book-btn{
+    margin-top: 10%;
+    /* position: absolute; */
+    /* right: 25%; */
+    /* bottom: 2%; */
+    border: 1px solid beige;
+    border-radius: 10px;
+    background: rgba(240, 207, 181, 0.741);
+    color:  rgba(0, 0, 0, 0.623);
+    font-weight: bold;
+    width: 50%;
+}
+.new-badge{
+    position: absolute;
+    top: -5%;
+    background: rgb(242, 200, 149);
+    right: 10%;
+    width: 25%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
