@@ -1,5 +1,6 @@
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { signOut } from 'firebase/auth';
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -10,6 +11,9 @@ import './Header.css';
 
 const Header = () => {
     const [user, loading, error] = useAuthState(auth);
+    const handleSignOut = () =>{
+        signOut(auth)
+    }
     return (
         <Navbar collapseOnSelect expand="lg" variant="light">
             <Container>
@@ -23,7 +27,7 @@ const Header = () => {
                         <Nav.Link as={NavLink} className='mx-md-2' to="/checkout">Checkout</Nav.Link>
                         {user ?
                             <NavDropdown title={user.displayName} id="collasible-nav-dropdown">
-                                <NavDropdown.Item  href="#action/3.4">Logout</NavDropdown.Item>
+                                <NavDropdown.Item onClick={handleSignOut }  href="#action/3.4">Logout</NavDropdown.Item>
                             </NavDropdown>
                             :
                             <Nav.Link as={NavLink} className='mx-md-2' to="/login">Login</Nav.Link>
