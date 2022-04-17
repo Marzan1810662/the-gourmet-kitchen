@@ -15,3 +15,14 @@
 .facebook-login-btn {
     background: #445c8a;
 }
+
+@media screen and (max-width: 576px) {
+    .social-container button {
+        width: 80%;
+    }
+}
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .social-container button {
+        width: 40%;
+    }
+}
