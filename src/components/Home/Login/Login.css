@@ -61,8 +61,14 @@
 
 
 @media screen and (max-width:576px) {
-    .form-container {
+    .login-form-container{
         margin: 20% auto;
         width: 95%;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .login-form-container{
+        margin: 10% auto;
+        width: 90%;
     }
 }
