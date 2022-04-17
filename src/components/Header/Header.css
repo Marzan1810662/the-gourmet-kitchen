@@ -1,7 +1,11 @@
 nav{
     background: #f3f1ec;;
 }
-
+.brand-logo{
+    display: none;
+    width: 60px;
+    border-radius: 50%;
+}
 nav a{
     font-weight: bold;
     font-size: 18px;
@@ -9,4 +13,17 @@ nav a{
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     font-size: 21px;
     color: rgba(0, 0, 0, 0.623);;
+}
+
+@media only screen and (max-width:576px) {
+    .brand-logo{
+        display: inline;
+        width: 60px;
+        border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:992px) {
+    
+
 }
