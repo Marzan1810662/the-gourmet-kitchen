@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Login from './components/Home/Login/Login';
+import Signup from './components/Home/Signup/Signup';
 import Notfound from './components/NotFound/Notfound';
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
+        <Route path='/signup' element={<Signup/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
         <Route path='*' element={<Notfound/>}></Route>
       </Routes>
     </div>
