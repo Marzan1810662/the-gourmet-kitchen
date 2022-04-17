@@ -1,0 +1,52 @@
+.notfound-banner-img {
+    background-image: url("https://i0.wp.com/diplomartbrussels.com/wp-content/uploads/2020/09/food-background-images-94-images-in-co-381169-png-images-pngio-food-background-png-1440_619.png?fit=1440%2C619&ssl=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+
+.notfound-banner-text {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.notfound-banner-text h1 {
+    font-weight: bold;
+}
+
+.notfound-banner-text button {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.623);
+    background: rgba(245, 222, 179, 0.303);
+    border: 1px solid rgba(245, 222, 179, 0.655);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.notfound-banner-text button:hover {
+    background: rgba(245, 222, 179, 0.568);
+}
+
+@media only screen and (max-width:576px) {
+    .notfound-banner-text {
+        top: 40%;
+    }
+
+    .notfound-banner-text button {
+        background: rgba(245, 222, 179, 0.568);
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:992px) {
+    .notfound-banner-text {
+        top: 40%;
+    }
+
+    .notfound-banner-text button {
+        background: rgba(245, 222, 179, 0.568);
+    }
+}
