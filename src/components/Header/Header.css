@@ -1,0 +1,12 @@
+nav{
+    background: #f3f1ec;;
+}
+
+nav a{
+    font-weight: bold;
+    font-size: 18px;
+    /* border-left: 1px solid rgba(0,0,0,.55); */
+}
+nav a:first-child{
+    /* border-left: none; */
+}
