@@ -15,7 +15,7 @@ const Blogs = () => {
                 </div>
                 <div>
                     <h4>Q2.Why are you using firebase? What other options do you have to implement authentication?</h4>
-                    <p>We are using firebase for user authentication and hosting. Firebase is one of the popular services for authentication. Some other alternative options are listed below:</p>
+                    <p>We are using firebase for user authentication and hosting.To match the credintials and saving user data can be difficult as technologies are more advanced now and firebabe is more secure when it comes to authentication. Firebase is one of the popular services for authentication. Some other alternative options are listed below:</p>
                     <span className='d-flex flex-lg-row ms-md-2'>
                         <ul>
                             <li>Auth0</li>
