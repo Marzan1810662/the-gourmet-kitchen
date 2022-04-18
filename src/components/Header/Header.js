@@ -12,17 +12,12 @@ import './Header.css';
 
 const Header = () => {
     const [user, loading, error] = useAuthState(auth);
-    console.log(user?.displayName);
-
-    const handleSignOut = () => {
-        signOut(auth)
-    }
     if (loading) {
         console.log('spinner from header ');
         return <LoadingSpinner></LoadingSpinner>;
     }
-    if (error) {
-        console.log(error.message);
+    const handleSignOut = () => {
+        signOut(auth)
     }
     return (
         <Navbar collapseOnSelect expand="lg" variant="light">
@@ -34,9 +29,9 @@ const Header = () => {
                         <Nav.Link as={NavLink} className='mx-md-2' to="/"><FontAwesomeIcon icon={faHome}></FontAwesomeIcon></Nav.Link>
                         <Nav.Link as={NavLink} className='mx-md-2' to="/blogs">Blogs</Nav.Link>
                         <Nav.Link as={NavLink} className='mx-md-2' to="/about">About</Nav.Link>
-                        <Nav.Link as={NavLink} className='mx-md-2' to="/checkout">Checkout</Nav.Link>
+                        {/* <Nav.Link as={NavLink} className='mx-md-2' to="/checkout">Checkout</Nav.Link> */}
                         {user ?
-                            <NavDropdown title={user.displayName} id="collasible-nav-dropdown">
+                            <NavDropdown title={user.displayName ? user.displayName : 'Profile'} id="collasible-nav-dropdown">
                                 <NavDropdown.Item onClick={handleSignOut} href="#action/3.4">Logout</NavDropdown.Item>
                             </NavDropdown>
                             :
