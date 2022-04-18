@@ -59,6 +59,11 @@
     margin: 0 5px 0;
 }
 
+.password-reset-span{
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.644);
+    font-weight: bold;
+}
 
 @media screen and (max-width:576px) {
     .login-form-container{
