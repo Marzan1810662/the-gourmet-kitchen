@@ -1,0 +1,27 @@
+.checkout-form-container {
+    margin: 5% auto;
+    padding: 3%;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgba(0, 0, 0, 0.623);
+    text-align: center;
+
+}
+
+.checkout-form-container input {
+    display: block;
+    margin: 10px;
+    width: 95%;
+    color: rgba(0, 0, 0, 0.773);
+}
+
+.checkout-form-container button {
+    width: 40%;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(240, 207, 181, 0.841);
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
