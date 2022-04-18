@@ -33,7 +33,20 @@
         font-size: 12px;
     }
 }
-
+@media only screen and (max-width:576px) {
+    .small-device-banner img{
+        position: relative;
+    }
+    .small-device-banner div{
+        position: absolute;
+        top:23%;
+        left:8%;
+        color: rgba(0, 0, 0, 0.623);
+    }
+    .small-device-banner h3{
+        font-weight: bold;
+    }
+}
 @media only screen and (min-width:576px) and (max-width:992px) {
     .logo {
         width: 20%;

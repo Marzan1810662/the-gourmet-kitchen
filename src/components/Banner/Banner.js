@@ -10,7 +10,7 @@ import './Banner.css';
 const Banner = () => {
     return (
         <div>
-            <Carousel>
+            <Carousel className='d-none d-md-block'>
                 <Carousel.Item>
                     <img
                         className="img-fluid d-block"
@@ -48,6 +48,17 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <div className='d-block d-md-none small-device-banner'>
+                <img
+                    className="img-fluid d-block"
+                    src='https://s3.envato.com/files/287161258/1-05082.jpg'
+                    alt="First slide"
+                />
+                <div>
+                    <h3>The Gourmet Kitchen</h3>
+                    <p>Cooked with love</p>
+                </div>
+            </div>
         </div>
     );
 };
