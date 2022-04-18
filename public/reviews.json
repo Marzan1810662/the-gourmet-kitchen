@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "625d3136f8c48e8c1522ccfd",
+    "index": 0,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aND1K2XwvVpvkajtKtr0potWUfm2y69dd4Ge2m1sWMweLbQW4sJfMysYhspL4eLPIJo&usqp=CAU",
+    "name": "Klein Sanford",
+    "reviewText": "The food was just amazing! Looking forwrd to order more",
+    "rating": 5
+  },
+  {
+    "_id": "625d3136a8f76fe8030a93c6",
+    "index": 1,
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxLRIvkScwreMSG18u4nTFlSiOpNpQ47uKV2I0b0PbL8PVV2jhN7NUaJlbDp-Y20YNLDo&usqp=CAU",
+    "name": "Evangeline Nieves",
+    "reviewText": "It was my first time ordering from a catering service and TGK didn't disappoint",
+    "rating": 4
+  },
+  {
+    "_id": "625d31364425fa050f4aaa4e",
+    "index": 2,
+    "picture": "https://i.pinimg.com/originals/3d/55/f9/3d55f987b134c83277c2ae24342aa589.jpg",
+    "name": "Earlene Conley",
+    "reviewText": "Their just matches my aesthetic. love TGK!!",
+    "rating": 5
+  },
+  {
+    "_id": "625d31363ffdf18e463f3719",
+    "index": 3,
+    "picture": "https://i.pinimg.com/originals/dd/c2/a9/ddc2a95a0c2b0e0995d0de725d6d86c6.jpg",
+    "name": "Osborne Beck",
+    "reviewText": "Tried thier dessert. Delivery was a bit late but loved the dessert.",
+    "rating": 3
+  }
+]
