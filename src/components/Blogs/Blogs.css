@@ -1,0 +1,11 @@
+.qna-container div {
+    margin: 10px 20px;
+    width: 30%;
+    border-radius: 10px;
+    background: #f3f1ec6f;
+    color: rgba(0, 0, 0, 0.623);
+    padding: 20px;
+    box-shadow: 1px 4px 7px 0px #888888;
+    text-align: justify;
+    text-justify: inter-word;
+}
