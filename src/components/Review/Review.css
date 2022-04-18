@@ -1,0 +1,42 @@
+.review-container {
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.623);
+    padding: 20px;
+}
+
+.user-img-div {
+    width: 20%;
+}
+
+.user-img-div img {
+    border-radius: 50%;
+}
+
+.user-review-div {
+    width: 80%;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: #f3f1ec6f;
+    color: rgba(0, 0, 0, 0.623);
+    padding: 10px 0;
+    box-shadow: 1px 4px 7px 0px #888888;
+}
+
+@media only screen and (max-width: 576px) {
+    .review-container {
+        width: 90%;
+    }
+    .user-review-div {
+        padding: 10px 5px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width:992px) {
+    .review-container {
+        width: 90%;
+    }
+    .user-review-div {
+        padding: 10px 5px;
+    }
+}
