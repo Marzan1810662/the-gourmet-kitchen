@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import banner1 from '../../images/banner/banner1.jpg';
 import banner2 from '../../images/banner/banner2.jpg';
 import banner3 from '../../images/banner/banner3.jpg';
+import banner4 from '../../images/banner/banner4.jpg';
 import logo from '../../images/logo1.png';
 import './Banner.css';
 
@@ -51,7 +52,7 @@ const Banner = () => {
             <div className='d-block d-md-none small-device-banner'>
                 <img
                     className="img-fluid d-block"
-                    src='https://s3.envato.com/files/287161258/1-05082.jpg'
+                    src={banner4}
                     alt="First slide"
                 />
                 <div>
