@@ -1,4 +1,4 @@
-# the Gourmet Kitchen
+# The Gourmet Kitchen
 
 Live site link : [https://the-gourmet-kitchen.web.app/](https://the-gourmet-kitchen.web.app/)
 
@@ -6,7 +6,7 @@ Live site link : [https://the-gourmet-kitchen.web.app/](https://the-gourmet-kitc
 * Home Page with banner,services and client reviews
 * User authentication with Login and signup
 * User email verification with eamil while sigining up
-* password reset link on login apge
+* password reset link on login page
 * About the developer on About page
 * Header and Footer on each page
 
@@ -17,4 +17,7 @@ Live site link : [https://the-gourmet-kitchen.web.app/](https://the-gourmet-kitc
 * React router
 * Firebase
 * React Firebase hook
+* React toastify
+* React rating
+* React fontawesome
 
