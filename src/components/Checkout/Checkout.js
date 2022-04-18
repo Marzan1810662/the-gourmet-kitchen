@@ -21,7 +21,7 @@ const Checkout = () => {
             <div className='checkout-form-container'>
             <h2>Checkout</h2>
                <form onSubmit={handleCheckoutSubmit}>
-               <input type="text" name="name" id="name" value={user.displayName}/>
+               <input type="text" name="name" id="name" value={user? user.displayName : ''} required/>
                 <input type="text" name="email" id="email" value= {user.email} readOnly/>
                 <input type="text" name="phone" id="phone" placeholder='Phone Number' required/>
                 <input type="text" name="address" id="address" placeholder='Address' required/>
