@@ -4,7 +4,7 @@
     "index": 0,
     "picture": "https://preview.pixlr.com/images/800wm/1318/2/1318105269.jpg",
     "name": "Daily Meal",
-    "description": "blablabla",
+    "description": "Daily meal plan can be for both lunch and dinner. You can choose your meal from the menu or can order customise meal plan according to your diet.",
     "price": 150
   },
   {
@@ -12,23 +12,23 @@
     "index": 1,
     "picture": "https://previews.123rf.com/images/lelik83/lelik831701/lelik83170101002/70767083-catering-food-wedding-event-table.jpg",
     "name": "Event",
-    "description": "blablabla",
-    "price": 150
+    "description": "You can choose from the various event menus.Arrangement can be made for upto 80 people. Perfect for small house events.",
+    "price": 180
   },
   {
     "_id": "625c2b52f55a9262dcdeea9e",
     "index": 2,
     "picture": "https://i0.wp.com/runningmen.my/wp-content/uploads/2021/10/LA-352-2992153937-1635431956347.jpg?resize=1200%2C802&ssl=1",
     "name": "Corporate",
-    "description": "blablabla",
-    "price": 150
+    "description": " You can arrange meals plans on a daily, weekly, custom basis.  Meal plan and menu can be customized accourding to your interest.",
+    "price": 130
   },
   {
     "_id": "625c2b5224bff19ec0eb904b",
     "index": 3,
     "picture": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYXJvbnxlbnwwfHwwfHw%3D&w=1000&q=80",
     "name": "Dessert",
-    "description": "blablabla",
-    "price": 150
+    "description": "You can now order our delicious desserts from our website. Sweet, creamy treat to fullfill your dessert dream. menue can be customised.",
+    "price": 100
   }
 ]
