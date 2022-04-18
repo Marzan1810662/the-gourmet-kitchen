@@ -7,12 +7,22 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { NavLink } from 'react-router-dom';
 import auth from '../../firebase.init';
 import logo from '../../images/logo1.png';
+import LoadingSpinner from '../LoadingSpinner/LoadingSpinner';
 import './Header.css';
 
 const Header = () => {
     const [user, loading, error] = useAuthState(auth);
-    const handleSignOut = () =>{
+    console.log(user?.displayName);
+
+    const handleSignOut = () => {
         signOut(auth)
+    }
+    if (loading) {
+        console.log('spinner from header ');
+        return <LoadingSpinner></LoadingSpinner>;
+    }
+    if (error) {
+        console.log(error.message);
     }
     return (
         <Navbar collapseOnSelect expand="lg" variant="light">
@@ -27,7 +37,7 @@ const Header = () => {
                         <Nav.Link as={NavLink} className='mx-md-2' to="/checkout">Checkout</Nav.Link>
                         {user ?
                             <NavDropdown title={user.displayName} id="collasible-nav-dropdown">
-                                <NavDropdown.Item onClick={handleSignOut }  href="#action/3.4">Logout</NavDropdown.Item>
+                                <NavDropdown.Item onClick={handleSignOut} href="#action/3.4">Logout</NavDropdown.Item>
                             </NavDropdown>
                             :
                             <Nav.Link as={NavLink} className='mx-md-2' to="/login">Login</Nav.Link>

@@ -18,7 +18,7 @@ const SocialLogin = () => {
     let errorElement;
     if(error){
         console.log(error.message);
-        errorElement = <p className='text-danger'>An Error Occured. Please try again.</p>
+        errorElement = <p className='text-danger'>{error.message}</p>
 
     }
     return (

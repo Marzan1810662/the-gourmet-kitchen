@@ -3,6 +3,7 @@ import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import LoadingSpinner from '../../LoadingSpinner/LoadingSpinner';
 import SocialLogin from '../../SocialLogin/SocialLogin';
 import './Login.css';
 
@@ -24,20 +25,24 @@ const Login = () => {
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
 
-        signInWithEmailAndPassword(email, password)
+        signInWithEmailAndPassword(email, password);
     }
     const from = location?.state?.from?.pathname || '/';
-    if(user)
-    {
-        navigate(from , {replace:true});
+    if (user) {
+        console.log(user);
+        navigate(from, { replace: true });
     }
     let errorElement;
-    if(error){
-        if(error){
+    if (error) {
+        if (error) {
             console.log(error.message);
-            errorElement = <p className='text-danger'>An Error Occured. Please try again.</p>
-    
+            errorElement = <p className='text-danger'>{error.message}</p>
+
         }
+    }
+     if (loading) {
+         console.log('spinner from login');
+        return <LoadingSpinner></LoadingSpinner>;
     }
     return (
         <div className='container login-form-container'>
